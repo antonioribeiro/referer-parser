@@ -208,7 +208,7 @@ $referer = $parser->parse(
 if ($referer->isKnown()) {
     echo $referer->getMedium(); // "Search"
     echo $referer->getSource(); // "Google"
-    echo $referer->getTerm();   // "gateway oracle cards denise linn"
+    echo $referer->getSearchTerm();   // "gateway oracle cards denise linn"
 }
 ```
 
